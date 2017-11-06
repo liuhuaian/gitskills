@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk
 
-ENV CERBERUS_URL=https://github.com/liuhuaian/gitskills/tree/lha/pt_hidoc/target/pt_hidoc-0.0.4-SNAPSHOT.jar
+ENV CERBERUS_URL=https://github.com/liuhuaian/gitskills/raw/lha/pt_hidoc/target/pt_hidoc-0.0.4-SNAPSHOT.jar
 
 #RUN cd /opt \
 #    && wget -O cerberus.jar "$CERBERUS_URL"
