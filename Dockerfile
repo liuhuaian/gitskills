@@ -12,6 +12,6 @@ ENV CERBERUS_URL=/pt_hidoc/target/pt_hidoc-0.0.4-SNAPSHOT.jar
     
 #EXPOSE 9999
 RUN cd /opt \
-	&& copy "$CERBERUS_URL" .
+	&& COPY "$CERBERUS_URL" .
 
 CMD ["java", "-jar", "/opt/pt_hidoc-0.0.4-SNAPSHOT.jar"]
