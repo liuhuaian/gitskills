@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<javadocOptions>
+  <tags>
+    <tag>
+      <name>ClassName</name>
+      <head>ClassName:</head>
+    </tag>
+    <tag>
+      <name>Description</name>
+      <head>Method_Description:</head>
+    </tag>
+    <tag>
+      <name>author</name>
+      <head>author:</head>
+    </tag>
+    <tag>
+      <name>date</name>
+      <head>date:</head>
+    </tag>
+    <tag>
+      <name>FieldComment</name>
+      <head>FieldComment:</head>
+    </tag>
+    <tag>
+      <name>mbggenerated</name>
+      <head>mbggenerated:</head>
+    </tag>
+  </tags>
+  <docletArtifacts>
+    <docletArtifact />
+  </docletArtifacts>
+  <tagletArtifacts>
+    <tagletArtifact />
+  </tagletArtifacts>
+  <links>
+    <link>http://commons.apache.org/dbcp/apidocs/</link>
+    <link>http://commons.apache.org/fileupload/apidocs/</link>
+  </links>
+  <javadocResourcesDirectory>src/main/javadoc</javadocResourcesDirectory>
+</javadocOptions>
