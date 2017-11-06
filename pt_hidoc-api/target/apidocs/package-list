@@ -1,7 +1,1 @@
 cn.ucmed
-cn.ucmed.api
-cn.ucmed.api.common
-cn.ucmed.api.controller.patient
-cn.ucmed.api.controller.record
-cn.ucmed.api.controller.search.report
-cn.ucmed.api.filter
