@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49316ffb-1e3c-49ba-a1ac-c3741c3892a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pt_hidoc/src/main/resources/templates/config.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hidoc.iml" />
-      <change type="DELETED" beforePath="C:\Users\ucmed\Desktop\gitskills\123" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ucmed\Desktop\gitskills\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ucmed\Desktop\gitskills\readme.txt" afterPath="" />
-    </list>
+    <list default="true" id="49316ffb-1e3c-49ba-a1ac-c3741c3892a4" name="Default" comment="" />
     <ignored path="hidoc.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/pt_hidoc-service/target/" />
@@ -617,15 +611,15 @@
       <created>1509938062963</created>
       <option name="number" value="Default" />
       <updated>1509938062963</updated>
-      <workItem from="1509938064744" duration="838000" />
+      <workItem from="1509938064744" duration="1579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="838000" />
+    <option name="totallyTimeSpent" value="1579000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
