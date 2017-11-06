@@ -12,6 +12,6 @@ ENV CERBERUS_URL=/pt_hidoc/target/pt_hidoc-0.0.4-SNAPSHOT.jar
     
 #EXPOSE 9999
 RUN cd /opt \
-	&& COPY "$CERBERUS_URL" .
+	&& wget -O pt_hidoc-0.0.4-SNAPSHOT.jar "$CERBERUS_URL"
 
 CMD ["java", "-jar", "/opt/pt_hidoc-0.0.4-SNAPSHOT.jar"]
