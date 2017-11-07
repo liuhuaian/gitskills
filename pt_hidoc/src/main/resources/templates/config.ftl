@@ -6,13 +6,7 @@
     <title></title>
 </head>
 <body>
-    <div>
-        医院列表:<input type="text" disabled="disabled" value="hospitalList"/>&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="button" value="保存数据" onclick="save('hospitalList')"/><br/>
-    <#--<input id="get" type="button" value="获取数据" onclick="getConfig()"/>&nbsp;&nbsp;&nbsp;&nbsp;
-    <input id="init" type="button" value="初始化数据" onclick="initConfig()"/><br/><br/>-->
-        <textarea id="hospitalList" cols="50" rows="10"></textarea>
-    </div>
+    
     <div>
         院区列表:<input type="text" disabled="disabled" value="branchList"/>&nbsp;&nbsp;&nbsp;&nbsp;
         <input type="button" value="保存数据" onclick="save('branchList')"/><br/>
