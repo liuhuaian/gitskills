@@ -30,7 +30,6 @@ RUN rm -rf /var/tmp/maven/apache-maven-3.3.9-bin.tar.gz
 ENV MAVEN_HOME=/var/tmp/maven/apache-maven-3.3.9
 ENV PATH=$MAVEN_HOME/bin:$PATH
 
-RUN mkdir /var/tmp
 ADD ./ /var/tmp
 RUN cd /var/tmp && mvn package && cp /var/tmp/pt_hidoc/target/pt_hidoc-0.0.4-SNAPSHOT.jar /var/tmp
 
