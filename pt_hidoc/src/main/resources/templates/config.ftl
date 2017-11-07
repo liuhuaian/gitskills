@@ -7,16 +7,7 @@
 </head>
 <body>
     
-    <div>
-        院区列表:<input type="text" disabled="disabled" value="branchList"/>&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="button" value="保存数据" onclick="save('branchList')"/><br/>
-        <textarea id="branchList" cols="50" rows="10"></textarea>
-    </div>
-    <div>
-        病区列表:<input type="text" disabled="disabled" value="wardList"/>&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="button" value="保存数据" onclick="save('wardList')"/><br/>
-        <textarea id="wardList" cols="50" rows="10"></textarea>
-    </div>
+   
     <div>
         病人列表:<input type="text" disabled="disabled" value="patientList"/>&nbsp;&nbsp;&nbsp;&nbsp;
         <input type="button" value="保存数据" onclick="save('patientList')"/><br/>

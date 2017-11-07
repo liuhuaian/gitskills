@@ -22,13 +22,13 @@ FROM openjdk:8-jdk
 #CMD ["java", "-jar", "/opt/pt_hidoc-0.0.4-SNAPSHOT.jar"]
 
 #安装maven
-RUN mkdir /var/tmp/maven
-RUN wget -P /var/tmp/maven http://mirrors.cnnic.cn/apache/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
-RUN tar xzf /var/tmp/maven/apache-maven-3.3.9-bin.tar.gz -C /var/tmp/maven
-RUN rm -rf /var/tmp/maven/apache-maven-3.3.9-bin.tar.gz
+#RUN mkdir /var/tmp/maven
+#RUN wget -P /var/tmp/maven http://mirrors.cnnic.cn/apache/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
+#RUN tar xzf /var/tmp/maven/apache-maven-3.3.9-bin.tar.gz -C /var/tmp/maven
+#RUN rm -rf /var/tmp/maven/apache-maven-3.3.9-bin.tar.gz
 #设置maven环境变量
-ENV MAVEN_HOME=/var/tmp/maven/apache-maven-3.3.9
-ENV PATH=$MAVEN_HOME/bin:$PATH
+#ENV MAVEN_HOME=/var/tmp/maven/apache-maven-3.3.9
+#ENV PATH=$MAVEN_HOME/bin:$PATH
 
 
 
